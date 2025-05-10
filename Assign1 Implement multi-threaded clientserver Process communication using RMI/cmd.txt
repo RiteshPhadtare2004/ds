@@ -1,3 +1,5 @@
+https://adoptium.net/en-GB/temurin/releases/?version=8
+
 Terminal 1:
 javac *.java
 rmic AddServerImpl

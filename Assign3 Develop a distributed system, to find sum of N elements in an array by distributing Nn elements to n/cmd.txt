@@ -1,0 +1,8 @@
+
+here chnage the MPJ_HOME path to the path in the current pc
+$env:MPJ_HOME = "./mpj-v0_44"
+
+
+$env:PATH = "$env:MPJ_HOME\bin;$env:PATH"
+javac -cp "$env:MPJ_HOME\lib\mpj.jar" ArrSum.java
+mpjrun.bat -np 4 ArrSum
